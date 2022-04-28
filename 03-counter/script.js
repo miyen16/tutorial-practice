@@ -1,20 +1,9 @@
-// const decrease = document.getElementById('decrease');
-// const resrt = document.getElementById('resrt');
-// const increase = document.getElementById('increase');
-
 const number = document.querySelector('.number');
 const btns = document.querySelectorAll('.btn');
 // console.log(btns);
 
 //classList獲得class
 //currentTarget抓取當前目標資料
-// btns.forEach(function (btn) {
-//     btn.addEventListener('click', function (e) {
-//         console.log(e.currentTarget.classList);
-//     });
-// // console.log(btn);
-// });
-
 //contains('')包含括弧內的文字時
 let count = 0;
 btns.forEach(function (btn) {

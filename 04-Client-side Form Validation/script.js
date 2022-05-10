@@ -5,7 +5,7 @@ const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 
 form.addEventListener('submit', e => {
-    e.preventDefault();
+    e.preventDefault(); //停止事件預設行為
     checkInputs();
 });
 function checkInputs() {
